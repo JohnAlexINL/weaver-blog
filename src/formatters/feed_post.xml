@@ -1,0 +1,9 @@
+<item>
+    <guid isPermaLink="true">%s</guid>
+    <link>%s</link>
+    <title>%s</title>
+    <author>%s</author>
+    <category>%s</category>
+    <description>%s</description>
+    <pubDate>%s</pubDate>
+</item>

@@ -1,0 +1,17 @@
+# RSS Format Strings
+bytes fmt_feed_post src/formatters/feed_post.xml strings/feed_post.h
+bytes fmt_feed_header src/formatters/feed_header.xml strings/feed_header.h
+bytes fmt_feed_footer src/formatters/feed_footer.xml strings/feed_footer.h
+
+# HTML Format Strings
+bytes fmt_index_header src/formatters/index_header.html strings/index_header.h
+bytes fmt_index_footer src/formatters/index_footer.html strings/index_footer.h
+bytes fmt_index_entry src/formatters/index_entry.html strings/index_entry.h
+bytes fmt_blog_post src/formatters/blog_post.html strings/blog_post.h
+
+# Weaver JavaScript Format Strings
+bytes fmt_js_header src/formatters/router_header.js strings/js_header.h
+bytes fmt_js_footer src/formatters/router_footer.js strings/js_footer.h
+bytes fmt_js_entry src/formatters/router_entry.js strings/js_entry.h
+
+gcc -o blog blog.c

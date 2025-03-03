@@ -1,0 +1,8 @@
+curl -a --basic https://modula.dev/weaver.js > ./ext/weaver.js
+curl -a --basic https://raw.githubusercontent.com/JohnAlexINL/JohnAlexINL/refs/heads/main/src/file.c > ./ext/file.c
+git clone --depth 1 https://github.com/fletcher/MultiMarkdown-6.git ./ext/mmd
+cd ext/mmd
+make
+cd build
+make
+mv ./multimarkdown ~/.local/bin/md
