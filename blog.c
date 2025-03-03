@@ -26,6 +26,7 @@
 #include "strings/js_header.h"      // fmt_js_header
 #include "strings/js_footer.h"      // fmt_js_footer
 #include "strings/js_entry.h"       // fmt_js_entry
+#include "strings/weaver.h"         // depend_weaver
 
 
 #include "src/commands.h"
@@ -54,6 +55,7 @@ int main(int argc, char **argv) {
         file_write(filename_tmp_rss, WORK_BUFFER, sizeof(WORK_BUFFER));
         file_write(filename_tmp_index, fmt_index_header, sizeof(fmt_index_header));
         file_write(filename_router, fmt_js_header, sizeof(fmt_js_header));
+        file_write(filename_weaver, depend_weaver, sizeof(depend_weaver));
         printf("[blog] init: ~tmp ready\n");
 
     // Then iteratively generate the blog

@@ -1,3 +1,4 @@
+const weaver = require('./weaver.js');
 const blogposts = {
     "feed.xml": ()=> { return weaver.serveFile("text/xml", "./static/feed.xml")},
     "index": ()=> { return weaver.serveFile("text/html", "./static/index.html")},

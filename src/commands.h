@@ -1,5 +1,6 @@
 #define ls_command "ls md"
 #define mkdir_command "mkdir -p ./static && mkdir -p ./tmp"
+#define filename_weaver "weaver.js"
 #define filename_router "blog-router.js"
 #define filename_tmp_rss "./tmp/feed.xml"
 #define filename_rss "./static/feed.xml"

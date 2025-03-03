@@ -1,3 +1,6 @@
+# Weaver.js
+bytes depend_weaver ext/weaver.js strings/weaver.h
+
 # RSS Format Strings
 bytes fmt_feed_post src/formatters/feed_post.xml strings/feed_post.h
 bytes fmt_feed_header src/formatters/feed_header.xml strings/feed_header.h
